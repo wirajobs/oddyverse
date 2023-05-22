@@ -1,0 +1,13 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/u8129467/public_html/
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp inner-page.html $DEPLOYPATH
+    - /bin/cp lejja.html $DEPLOYPATH
+    - /bin/cp maskerade.html $DEPLOYPATH
+    - /bin/cp mouvee.html $DEPLOYPATH
+    - /bin/cp portofolio-details.html $DEPLOYPATH
+    - /bin/cp style.css $DEPLOYPATH
+    - /bin/cp -R asset $DEPLOYPATH
+    - /bin/cp -R forms $DEPLOYPATH
